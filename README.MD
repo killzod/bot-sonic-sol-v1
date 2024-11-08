@@ -4,7 +4,7 @@
 
 ```bash
 git clone https://github.com/killzod/bot-sonic-sol-v1.git
-cd bot-sonic-sol
+cd bot-sonic-sol-v1
 ```
 
 ### 2. Instal Dependensi

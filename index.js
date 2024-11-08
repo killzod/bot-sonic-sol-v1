@@ -11,8 +11,8 @@ const bip39 = require('bip39')
 const { derivePath } = require('ed25519-hd-key')
 require('dotenv').config()
 
-const DEVNET_URL = 'https://devnet.sonic.game/'
-const connection = new Connection(DEVNET_URL, 'confirmed')
+const TESTNET_URL = 'https://api.testnet.v1.sonic.game/'
+const connection = new Connection(TESTNET_URL, 'confirmed')
 
 async function sendSol(fromKeypair, toPublicKey, amount) {
   const transaction = new Transaction().add(
